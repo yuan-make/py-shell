@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 import sys,os,string
 import MySQLdb
-db = MySQLdb.connect( host = '192.168.143.233',user = 'root',passwd = 'jproot' ,db ='js_xiudang',port = 3306 )
+db = MySQLdb.connect( host = '192.168.143.233',user = 'xxxxx',passwd = 'xxxxx' ,db ='js_xiudang',port = 3306 )
 cursor = db.cursor()
 new_table=('js_sorder_address_history','js_sorder_deliver','js_sorder_deliver_history','js_sorder_delivery_code','js_sorder_delivery_code_history','js_sorder_gift_coupon','js_sorder_gift_goods','js_sorder_info_map','js_sorder_info_map_history','js_sorder_orderno_map','js_sorder_pay','js_sorder_payno_map','js_sorder_refund','js_sorder_relation','tmp_business_order','tmp_user_order')
 for tbname in range(len(new_table)):
